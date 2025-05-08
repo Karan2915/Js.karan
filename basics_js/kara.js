@@ -1,1 +1,1 @@
-console.log("Karan is a programmer");
+console.log("Karan a programmer");
