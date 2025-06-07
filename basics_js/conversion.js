@@ -28,10 +28,31 @@ let negativevalue = -value;
 //console.log(gamecounter)
 let x = 3;
 const y = x++;
-console.log(x);
-console.log(y);
+//console.log(x);
+//console.log(y);
 // x is 4; y is 3
 
 let x2 = 3n;
 const y2 = x2++;
 // x2 is 4n; y2 is 3n
+
+/*console.log(null>0);
+console.log(null==0);
+console.log(null<0);
+console.log(null<=0);
+console.log(null>=0);
+console.log(null!=0);
+*/
+console.log(undefined>0);
+console.log(undefined==0);
+console.log(undefined<0);
+console.log(undefined<=0);
+console.log(undefined>=0);
+console.log(undefined!=0);
+
+console.log(NaN>0);
+console.log(NaN==0);
+console.log(NaN<0);
+console.log(NaN<=0);
+console.log(NaN>=0);
+console.log(NaN!=0);
