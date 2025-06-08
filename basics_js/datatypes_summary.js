@@ -29,4 +29,23 @@ let myObj = {
 const myFunction = function () {
     console.log("hello world")
 }
-console.log(myFunction)
+//console.log(myFunction)
+
+//stack(Primitives)
+//heap(Reference Data Types)
+
+let myYoutubename= "Karan"
+let otherName= myYoutubename
+otherName="Dhoni"
+
+//console.log(myYoutubename)
+//console.log(otherName)
+
+let userOne = {
+    email: "karan@gmail.com",
+    upi: "1234567890",
+}
+let UserTwo = userOne
+UserTwo.email = "kk29156506@gmail.com"
+console.log(userOne)
+console.log(UserTwo)
